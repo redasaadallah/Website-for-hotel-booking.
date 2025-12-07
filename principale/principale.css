@@ -1,0 +1,413 @@
+
+body{
+    background-image: url('../back2.png');
+    background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+/* l'entete de la page */
+#d1{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    
+    height: 500px;
+}
+#d12{
+    background-image: url('img1/1.jpg');
+    background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+  transition: background-image 3s ease-in-out;
+  border-radius: 20px;
+  display: grid;
+grid-template-rows: 88% 12%;
+}
+
+
+
+    
+
+#d11{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    
+    height: 500px;
+}
+#d111{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100%;
+}
+#d112{
+    
+   
+    width: 100%;  
+}
+#d122{
+    
+    background-color: #d49145;
+    display: grid;
+    grid-template-columns: 100%;
+     
+}
+#logo{
+    width: 100%;
+}
+#time{
+    color: brown;
+    font-size: 300%;
+    font-family: cursive;
+    text-align: center;
+    
+}
+#date{
+    color: brown;
+    font-size: 300%;
+    font-family: cursive;
+    text-align: center;
+    
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-evenly;
+    /* background-color: #8e3e45; */
+    
+}
+
+li {
+    display: inline-block;
+    padding-right:0px;
+    
+}
+#d1221{
+    padding-top: 0px;
+    
+}
+#d1222{
+    text-align:center;
+}
+
+button {
+    width: 120%;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: #d49145;
+    color: white;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    height: 40px;
+
+    
+}
+
+.toggle-btn:hover {
+    background-color: #8345a0;
+}
+
+button.active {
+    background-color: #8e3e45;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.fa {
+    font-size: 15px; /* Icon size */
+}
+#menu{
+  position: absolute;
+  top:500px;
+  left:57.5%;
+  height: 200px;
+  display: none;
+  width: 10%;
+  border: 2px solid rgb(218, 113, 15);
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+  
+}
+#ulmenu{
+  
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  align-content: center;
+  width: 45%;
+}
+.limenu{
+  margin-top: 25px;
+  padding: 0;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: arial;
+  
+  
+}
+.listeVille{
+  color: #0a0704;
+}
+.listeVille:hover{
+  color: #e76a21;
+
+}
+
+.button-42 {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+   
+   margin-top:10px;
+    outline: 0;
+    overflow: hidden;
+    
+    pointer-events: auto;
+   
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    
+    white-space: nowrap;
+    width: 50%;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow .2s;
+    
+  }
+  
+  .button-42:hover {
+    box-shadow: rgba(46, 0, 253, 0.5) 0 8px 8px;
+    
+  }
+  /* -----------------------le milieu de la page */
+  #m{
+    width: 100%;
+    height:1500px;
+    /* background-color: #8345a0; */
+    margin-top: 20px;
+   
+}
+#pt1{
+    text-align: center;
+    font-size: 56px;
+    font-weight: bold;
+    color: rgb(37, 11, 133);}
+    #pt2{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: cursive;
+        color: rgb(10, 7, 20);}
+#m2{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+#m22{
+        /* background-color: #45d480; */
+        height: 610px;
+}
+#m211{
+   display:grid;
+   /* background-color: #5f070c; */
+   grid-template-columns: 50% 50%;
+   row-gap: 60px;
+   padding-left: 60px;
+   height: 500px;
+
+}
+#m2111{
+    background-image: url('../villes images/1.png');
+    background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+}
+#m2112{
+    background-image: url('../villes images/2.png');
+    background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+}
+#m2113{
+    background-image: url('../villes images/3.png');
+    background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+}
+#m2114{
+    background-image: url('../villes images/4.png');
+    background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+}
+.m211{
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+    filter: grayscale();
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: cursive;
+    color: #0a0704;
+    cursor: pointer;
+}
+.m211:hover{
+    transform:scale(1.1);
+    transition: 0.5s ease-in-out;
+    filter: brightness(1);
+    color: #e77503;
+}
+#m3{
+    display: grid;
+    /* background-color: #0a0704; */
+    height: 500px;
+    grid-template-columns: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+video{
+  border-radius: 10px; /* Optional: adds rounded corners */
+  box-shadow: 10px 10px 20px rgba(233, 137, 11, 0.5); /* Shadow around the video */
+width:46.5%;
+border-radius: 100px 20px 100px 20px;
+}
+
+
+
+  /*------------------------ pier de la page */
+#rjal1{
+  /* background-color: #8e3e45; */
+
+width: 100%;
+height: 400px;
+/* position: absolute; */
+top: 10px;
+bottom: 0px;
+display:grid;
+grid-template-rows: 90% 10%;
+}
+.rjal{
+    display:grid;
+    grid-template-columns: 40% 20% 40%;
+}
+.addireda{
+   
+ width: 70%;
+  height: 200px;
+  border-radius: 100%;
+}
+#reda{
+  background-image: url('../reda.jpg');
+  background-size: cover; /* Ensures the image covers the entire div */
+background-position: center; /* Centers the image */
+background-repeat: no-repeat;
+}
+#addi{
+  background-image: url('../addi.jpg');
+  background-size: cover; /* Ensures the image covers the entire div */
+background-position: center; /* Centers the image */
+background-repeat: no-repeat;
+}
+#devlop{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #e76a21;
+    font-family: arial;
+}
+#red{
+    /* background-color: #45d480; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: cursive;
+}
+#commant{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#com{
+  width: 50%;  
+  
+  
+  
+}
+
+/* les cinq etoile */
+.radio-wrapper-18 > input {
+    position: absolute;
+    appearance: none;
+  }
+  
+  .radio-wrapper-18 > label {
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+    fill: #666;
+  }
+  
+  .radio-wrapper-18 > label > svg {
+    fill: #666; /* Set default color for SVG */
+    transition: fill 0.3s ease; /* Add a transition effect */
+  }
+  
+  .radio-wrapper-18 > input:checked + label:hover,
+  .radio-wrapper-18 > input:checked + label:hover ~ label,
+  .radio-wrapper-18 > input:checked ~ label:hover,
+  .radio-wrapper-18 > input:checked ~ label:hover ~ label,
+  .radio-wrapper-18 > label:hover ~ input:checked ~ label {
+    fill: #e58e09;
+  }
+  
+  .radio-wrapper-18 > label:hover,
+  .radio-wrapper-18 > label:hover ~ label {
+    fill: #ff9e0b;
+  }
+  
+  .radio-wrapper-18 > input:checked ~ label > svg {
+    fill: #ffa723; /* Set color for selected stars */
+  }  
+/* fin des cinq etoile */
+#star{
+   margin-right: 20px;
+}
+textarea {
+    width: 98%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+  #envoyer{
+      width: 20%;
+      
+  }
