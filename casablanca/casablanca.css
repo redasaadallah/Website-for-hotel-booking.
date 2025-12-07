@@ -1,0 +1,596 @@
+body{
+    background-image: url('../back2.png');
+    background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+/*--------------------- l'entete de la page------------------------- */
+#d1{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    
+    height: 500px;
+}
+#d12{
+    background-image: url('img1/1.jpg');
+    background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+  transition: background-image 3s ease-in-out;
+  border-radius: 20px;
+  display: grid;
+grid-template-rows: 88% 12%;
+}
+
+
+
+    
+
+#d11{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    
+    height: 500px;
+}
+#d111{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100%;
+}
+#d112{
+    
+   
+    width: 100%;  
+}
+#d122{
+    
+    background-color: #d49145;
+    display: grid;
+    grid-template-columns: 100%;
+     
+}
+#logo{
+    width: 100%;
+}
+#time{
+    color: brown;
+    font-size: 300%;
+    font-family: cursive;
+    text-align: center;
+    
+}
+#date{
+    color: brown;
+    font-size: 300%;
+    font-family: cursive;
+    text-align: center;
+    
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-evenly;
+    /* background-color: #8e3e45; */
+    
+}
+
+li {
+    display: inline-block;
+    padding-right:0px;
+    
+}
+#d1221{
+    padding-top: 0px;
+    
+}
+#d1222{
+    text-align:center;
+}
+
+button:not(.reserver) {
+    width: 120%;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: #d49145;
+    color: white;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    height: 40px;
+
+    
+}
+
+.toggle-btn:hover {
+    background-color: #8345a0;
+}
+
+button.active {
+    background-color: #8e3e45;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.fa {
+    font-size: 15px; /* Icon size */
+}
+#menu{
+  position: absolute;
+  top:500px;
+  left:57.5%;
+  height: 200px;
+  display: none;
+  width: 10%;
+  border: 2px solid rgb(218, 113, 15);
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+  
+}
+#ulmenu{
+  
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  align-content: center;
+  width: 45%;
+}
+.limenu{
+  margin-top: 25px;
+  padding: 0;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: arial;
+  
+  
+}
+.listeVille{
+  color: #0a0704;
+}
+.listeVille:hover{
+  color: #e76a21;
+
+}
+
+
+  /* -----------------------le milieu de la page */
+  #m0{
+    width: 90%;
+    height:0px;
+    /* background-color: #8345a0; */
+    margin-top: 20px;
+   
+}
+#pt1{
+    text-align: center;
+    font-size: 56px;
+    font-weight: bold;
+    color: rgb(37, 11, 133);}
+    #pt2{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: cursive;
+        color: rgb(10, 7, 20);}
+#m02{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+#m03{
+    display: grid;
+    /* background-color: #0a0704; */
+    height: 500px;
+    grid-template-columns: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+#m{
+    width:80%;
+    margin-inline: auto;
+    
+
+   }
+   #m1{
+    margin-left: 5%;
+    width:90%;
+    
+    display: flex;
+    /* background-color: #F09819; */
+   }
+   #m2{
+    width: 100%;
+    
+    /* background-color: blueviolet; */
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px
+   }
+   #m11{
+    width:50%;
+    height:300px;
+    border: 10px orange groove;
+    background-image: url('../hotels casablanca/casablanca.png');
+    background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+   }
+   #m12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+   }
+   #bienvennu{
+    font-family: serif;
+    font-size: 60px;
+    color: orange;
+    text-align: center;
+   }
+   #m21{
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    height: 200px;
+    display:grid;
+    grid-template-columns: 20% 80%;
+    column-gap: 20px;
+    padding: 10px;
+    background-color: #eee3e3;
+  
+    
+  }
+  #m21:hover{
+    transform:scale(1.05);
+    transition: 0.5s ease-out;
+    background-color: #fad6a4;
+  }
+  #m2111{
+    background-image: url('../hotels casablanca/Hotel Majestic.jpg');
+    background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;}
+  #m2112{
+    background-image: url('../hotels casablanca/Washington Hotel.jpg');
+    background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+  }
+  #m2113{
+    background-image: url('../hotels casablanca/ONOMO Airport Casablanca.jpg');
+    background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+  }
+  #m2114{
+    background-image: url('../hotels casablanca/Relax Hotel Casa Voyageurs.jpg');
+    background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+  }
+  #m2115{
+    background-image: url('../hotels casablanca/Ibis Casablanca City Center.jpg');
+    background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+  }
+  #m212{
+    height: 100%;
+  }
+   .nom{
+    font-family: arial;
+    font-weight: bold;
+    color:blue
+   }
+   .adress{
+    color:blue;
+    text-decoration: underline;
+   }
+   .adress1{
+    font-family: cursive;
+   }
+   .reserver{
+    
+    display: inline-block;
+    margin-left: 50%;
+    
+    
+   }
+   .prix{
+    color: green;
+    font-weight: bold;
+   }
+   .reserver {
+  
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 200px;
+}
+
+.reserver:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.reserver:active {
+  transform: scale(0.95);
+}
+.formulaire{
+  width:40%;
+  background-color: #F09819;
+  height: 500px;
+  display: none;
+  flex-direction: column;
+  padding: 30px;
+  position: relative;
+  background-color: #f1e7e7;
+  color: #fff;
+  
+  gap: 20px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+}
+/* From Uiverse.io by AbanoubMagdy1 */ 
+.wave-group {
+  position: relative;
+  /* background-color: #F09819; */
+  width: 100%;
+}
+
+ .input {
+  font-size: 16px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 97%;
+  border: none;
+  border-bottom: 1px solid #515151;
+  background: transparent;
+}
+
+.wave-group .input:focus {
+  outline: none;
+  
+}
+
+.wave-group .label {
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  display: flex;
+}
+
+.wave-group .label-char {
+  transition: 0.2s ease all;
+  transition-delay: calc(var(--index) * .05s);
+}
+
+.wave-group .input:focus ~ label .label-char,
+.wave-group .input:valid ~ label .label-char {
+  transform: translateY(-20px);
+  font-size: 14px;
+  color: #5264AE;
+}
+
+.wave-group .bar {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.wave-group .bar:before,.wave-group .bar:after {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #5264AE;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.wave-group .bar:before {
+  left: 50%;
+}
+
+.wave-group .bar:after {
+  right: 50%;
+}
+
+.wave-group .input:focus ~ .bar:before,
+.wave-group .input:focus ~ .bar:after {
+  width: 50%;
+}
+.rad{
+  color: #515151;
+}
+input[type="date"] {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 12px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="date"]:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator:hover {
+    background-color: #007BFF;
+    filter: brightness(1.2);
+}
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+video{
+  border-radius: 10px; /* Optional: adds rounded corners */
+  box-shadow: 10px 10px 20px rgba(233, 137, 11, 0.5); /* Shadow around the video */
+width:46.5%;
+border-radius: 100px 20px 100px 20px;
+}
+
+
+
+  /*------------------------ pier de la page */
+#rjal1{
+  /* background-color: #8e3e45; */
+
+width: 100%;
+height: 400px;
+/* position: absolute; */
+top: 10px;
+bottom: 0px;
+display:grid;
+grid-template-rows: 90% 10%;
+}
+.rjal{
+    display:grid;
+    grid-template-columns: 40% 20% 40%;
+}
+.addireda{
+   
+ width: 70%;
+  height: 200px;
+  border-radius: 100%;
+}
+#reda{
+  background-image: url('../reda.jpg');
+  background-size: cover; /* Ensures the image covers the entire div */
+background-position: center; /* Centers the image */
+background-repeat: no-repeat;
+}
+#addi{
+  background-image: url('../addi.jpg');
+  background-size: cover; /* Ensures the image covers the entire div */
+background-position: center; /* Centers the image */
+background-repeat: no-repeat;
+}
+#devlop{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #e76a21;
+    font-family: arial;
+}
+#red{
+    /* background-color: #45d480; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: cursive;
+}
+#commant{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#com{
+  width: 50%;  
+  
+  
+  
+}
+
+/* les cinq etoile */
+.radio-wrapper-18 > input {
+    position: absolute;
+    appearance: none;
+  }
+  
+  .radio-wrapper-18 > label {
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+    fill: #666;
+  }
+  
+  .radio-wrapper-18 > label > svg {
+    fill: #666; /* Set default color for SVG */
+    transition: fill 0.3s ease; /* Add a transition effect */
+  }
+  
+  .radio-wrapper-18 > input:checked + label:hover,
+  .radio-wrapper-18 > input:checked + label:hover ~ label,
+  .radio-wrapper-18 > input:checked ~ label:hover,
+  .radio-wrapper-18 > input:checked ~ label:hover ~ label,
+  .radio-wrapper-18 > label:hover ~ input:checked ~ label {
+    fill: #e58e09;
+  }
+  
+  .radio-wrapper-18 > label:hover,
+  .radio-wrapper-18 > label:hover ~ label {
+    fill: #ff9e0b;
+  }
+  
+  .radio-wrapper-18 > input:checked ~ label > svg {
+    fill: #ffa723; /* Set color for selected stars */
+  }  
+/* fin des cinq etoile */
+#star{
+   margin-right: 20px;
+}
+textarea {
+    width: 98%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+  #envoyer{
+      width: 20%;
+      
+  }
