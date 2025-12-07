@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="agadir.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+  <body>
+    <!------------------------------------ l'entete de la page ------------------------------------->
+    <div id="d1">
+        <div id="d11">
+            <div id="d111">
+            <img  id="logo" src="../logo1.png" alt="">
+        </div>
+        <div id="d112">
+            <div  id="time"></div>
+            
+            <div  id="date"></div>
+        </div>
+        </div>
+         <div id="d12">
+            <div id="d121">            
+                
+            </div>
+            <div id="d122">
+                <div id="d1221">
+                <ul>
+                    <li><button id="button1" class="toggle-btn"><i class="fa fa-home"></i>&nbsp;<a href="../principale/principale.html">Accueil</a></button></li>
+                    <li><button id="button2" class="toggle-btn"><i class="fa fa-city"></i>&nbsp;Villes</button></li>
+                    
+                    <li><button id="button3" class="toggle-btn"><i class="fa fa-hotel"></i>&nbsp;<a href="../reservations/reservation.html">Réservations</a></button></li>
+                    </ul>
+                    </div>
+                    
+                
+
+            </div>
+         </div>
+    </div>
+<!------------------------ le milieu de la page ----------------------->
+ 
+ <div id="m01"> 
+    <p id="pt1">Simplifiez vos séjours <br> réservez votre hôtel en ligne en quelques clics !</p>
+    <p id="pt2">**Découvrez le Maroc autrement avec notre plateforme de réservation d'hôtels en ligne.**  
+        <br>Trouvez facilement l'hôtel idéal dans les plus belles destinations marocaines, de Marrakech à Casablanca, en passant par Agadir et Fès. <br>Comparez les prix, explorez les services, et réservez en quelques clics pour un séjour inoubliable. Simplifiez vos voyages et profitez du charme du Maroc, sans stress ni tracas !</p>
+</div>
+<br><br><br>
+ <div id="m02">
+    <div id="m021">
+        <h1>Hôtels au Maroc près de lieux d'intérêt populaires</h1>
+        <p>Choisissez votre lieu d'intérêt au Maroc et trouvez un hôtel à proximité</p>
+        <br>  
+    </div>
+ </div>
+ <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+ <div id="m">
+    <div id="m1">
+       <div id="m11"></div>
+       <div id="m12">
+        <h3 id="bienvennu">Bienvennu au<br> AGADIR</h3>
+       </div>
+    </div>
+    <div id="m2">
+      <!----------------------------- carte 1---------------- -->
+      <div class="m21">
+        <div id="m2111"></div>
+        <div id="m212">
+              <h3 class="nom">Dunes d'Or Ocean Club</h3>
+              <p class="adress">Baie d'Agadir, Agadir 1,2 km du centre.</p>
+              <p class="adress1">Situé en face de la plage d'Agadir, l'hôtel Dunes d'Or Ocean Club possède une piscine extérieure avec des chaises longues. L’établissement propose des chambres avec vue dotées d’un balcon.</p>
+              <span class="prix">Prix à partir de : 781 MAD</span>
+              <button id="reserver1" class="reserver" >Réserver</button>
+            </div>
+      </div>
+      <!-- ----------------formulaire 1-------------------- -->
+      <form id="formulaire1" class="formulaire" action="../code de reservation/code_reservation.php" method="get" >
+        <!--  -->
+        <div>
+          <input type="text" name="ville" value="Agadir" style="display: none;" >
+        </div>
+        <div>
+          <input type="text" name="hotel" value="Dunes dOr Ocean Club" style="display: none;" >
+        </div>
+        <div class="wave-group">
+          <input required="" name="cin" type="text" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">C</span>
+            <span class="label-char" style="--index: 1">I</span>
+            <span class="label-char" style="--index: 2">N</span>
+            <span class="label-char" style="--index: 3">/</span>
+            <span class="label-char" style="--index: 4">PASSE</span>
+            <span class="label-char" style="--index: 5">PORT</span>
+            
+          </label>
+        </div>
+        <!--  -->
+        <div class="wave-group">
+          <input required="" name="nom" type="text" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">N</span>
+            <span class="label-char" style="--index: 1">O</span>
+            <span class="label-char" style="--index: 2">M</span>
+            
+          </label>
+        </div>
+        <!--  -->
+        <div class="wave-group">
+          <input required="" name="prenom" type="text" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">P</span>
+            <span class="label-char" style="--index: 1">R</span>
+            <span class="label-char" style="--index: 2">E</span>
+            <span class="label-char" style="--index: 0">N</span>
+            <span class="label-char" style="--index: 1">O</span>
+            <span class="label-char" style="--index: 2">M</span>
+            
+          </label>
+        </div>
+        <!--  -->
+        <div class="wave-group">
+          <input required="" name="phone" type="tel" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">T</span>
+            <span class="label-char" style="--index: 1">E</span>
+            <span class="label-char" style="--index: 2">L</span>
+            <span class="label-char" style="--index: 0">E</span>
+            <span class="label-char" style="--index: 1">P</span>
+            <span class="label-char" style="--index: 2">H</span>
+            <span class="label-char" style="--index: 0">O</span>
+            <span class="label-char" style="--index: 1">N</span>
+            <span class="label-char" style="--index: 2">E</span>
+            
+          </label>
+        </div>
+        <!--  -->
+        <div class="wave-group">
+          <input required="" name="email" type="text" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">E</span>
+            <span class="label-char" style="--index: 1">M</span>
+            <span class="label-char" style="--index: 2">A</span>
+            <span class="label-char" style="--index: 1">I</span>
+            <span class="label-char" style="--index: 2">L</span>
+            
+          </label>
+        </div>
+        <!--  -->
+        <div>
+        <SPAN class="rad">Chambre individuelle 781 MAD</SPAN>
+        <input required="" class="radio" type="radio" name="prix" value="Individuelle 781 MAD">
+        <SPAN class="rad">Chambre double 1200 MAD</SPAN>
+        <input required="" class="radio" type="radio" name="prix" value="Double 1200 MAD" >
+          </div>
+          <!--  -->
+          <div style="width: 100%;">
+            <input required="" name="date" type="date"  name="start-date">
+
+          </div>
+          <!--  -->
+          <div style="display: flex; gap: 20px;">
+            <button style="margin-left: 0px;" id="annuler1" class="reserver" type="button">Annuler</button>
+            <button style="margin-left: 0px;" id="confirmer1" class="reserver" type="submit">Confirmer</button>
+          </div>
+      </form>
+      <!---------------------------- catre 2 --------------------------->
+      <div class="m21" id="m210">
+        <div id="m2112"></div>
+        <div id="m212">
+              <h3 class="nom">Résidence Hotelière Fleurie</h3>
+              <p class="adress">Agadir 1,3 km du centrePlage à proximité À 1,1 km de la plage</p>
+              <p class="adress1">La Residence Fleurie vous accueille en plein cœur d’Agadir, à 10 minutes de marche de la plage. Cet établissement propose des studios et des appartements spacieux, ainsi qu’une piscine extérieure.</p>
+              <br>
+              <span class="prix">Prix à partir de : 918 MAD</span>
+              <button id="reserver2" class="reserver" >Réserver</button>
+            </div>
+      </div>
+      <!-- --------------------------formulaire 2---------- -->
+      <form id="formulaire2" class="formulaire" action="../code de reservation/code_reservation.php" method="get">
+        <!--  -->
+        <div>
+          <input type="text" name="ville" value="Agadir" style="display: none;" >
+        </div>
+        <div>
+          <input type="text" name="hotel" value="Residence Hoteliere Fleurie" style="display: none;" >
+        </div>
+        <div class="wave-group">
+          <input required="" name="cin" type="text" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">C</span>
+            <span class="label-char" style="--index: 1">I</span>
+            <span class="label-char" style="--index: 2">N</span>
+            <span class="label-char" style="--index: 3">/</span>
+            <span class="label-char" style="--index: 4">PASSE</span>
+            <span class="label-char" style="--index: 5">PORT</span>
+
+            
+          </label>
+        </div>
+        <!--  -->
+        <div class="wave-group">
+          <input required="" name="nom" type="text" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">N</span>
+            <span class="label-char" style="--index: 1">O</span>
+            <span class="label-char" style="--index: 2">M</span>
+            
+          </label>
+        </div>
+        <!--  -->
+        <div class="wave-group">
+          <input required="" name="prenom" type="text" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">P</span>
+            <span class="label-char" style="--index: 1">R</span>
+            <span class="label-char" style="--index: 2">E</span>
+            <span class="label-char" style="--index: 0">N</span>
+            <span class="label-char" style="--index: 1">O</span>
+            <span class="label-char" style="--index: 2">M</span>
+            
+          </label>
+        </div>
+        <!--  -->
+        <div class="wave-group">
+          <input required="" name="phone" type="tel" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">T</span>
+            <span class="label-char" style="--index: 1">E</span>
+            <span class="label-char" style="--index: 2">L</span>
+            <span class="label-char" style="--index: 0">E</span>
+            <span class="label-char" style="--index: 1">P</span>
+            <span class="label-char" style="--index: 2">H</span>
+            <span class="label-char" style="--index: 0">O</span>
+            <span class="label-char" style="--index: 1">N</span>
+            <span class="label-char" style="--index: 2">E</span>
+            
+          </label>
+        </div>
+        <!--  -->
+        <div class="wave-group">
+          <input required="" name="email" type="text" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">E</span>
+            <span class="label-char" style="--index: 1">M</span>
+            <span class="label-char" style="--index: 2">A</span>
+            <span class="label-char" style="--index: 1">I</span>
+            <span class="label-char" style="--index: 2">L</span>
+            
+          </label>
+        </div>
+        <!--  -->
+        <div>
+        <SPAN class="rad">Chambre individuelle 474 MAD</SPAN>
+        <input required="" class="radio" name="prix" value="Individuelle 474 MAD" type="radio" >
+        <SPAN class="rad">Chambre double 800 MAD</SPAN>
+        <input required="" class="radio" name="prix" value="Double 800 MAD" type="radio" >
+          </div>
+          <!--  -->
+          <div style="width: 100%;">
+            <input required="" name="date" type="date"  name="start-date">
+
+          </div>
+          <!--  -->
+          <div style="display: flex; gap: 20px;">
+            <button style="margin-left: 0px;" id="annuler2" class="reserver" type="button">Annuler</button>
+            <button style="margin-left: 0px;" id="confirmer1" class="reserver" type="submit">Confirmer</button>
+          </div>
+      </form>
+      <!-------------------------- carte 3--------------------- -->
+      <div class="m21">
+        <div id="m2113"></div>
+        <div id="m212">
+              <h3 class="nom">Hotel Club Almoggar Garden Beach</h3>
+              <p class="adress">Baie d'Agadir, Agadir 2,8 km du centre</p>
+              <p class="adress1">Situé sur un terrain de 5 hectares, l'Hotel Club Almoggar Garden Beach dispose de 2 piscines et d'une plage de sable privée. Il propose un spa, une salle de sport et un grand jardin.</p>
+              <span class="prix">Prix à partir de : 752 MAD</span>
+              <button id="reserver3" class="reserver" >Réserver</button>
+            </div>
+      </div>
+      <!------------------------------------ form 3-------------------------------- -->
+      <form id="formulaire3" class="formulaire" action="../code de reservation/code_reservation.php" method="get">
+        <!--  -->
+        <div>
+          <input type="text" name="ville" value="Agadir" style="display: none;" >
+        </div>
+        <div>
+          <input type="text" name="hotel" value="Hotel Club Almoggar Garden Beach" style="display: none;" >
+        </div>
+        <div class="wave-group">
+          <input required="" name="cin" type="text" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">C</span>
+            <span class="label-char" style="--index: 1">I</span>
+            <span class="label-char" style="--index: 2">N</span>
+            <span class="label-char" style="--index: 3">/</span>
+            <span class="label-char" style="--index: 4">PASSE</span>
+            <span class="label-char" style="--index: 5">PORT</span>
+
+            
+          </label>
+        </div>
+        <!--  -->
+        <div class="wave-group">
+          <input required="" name="nom" type="text" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">N</span>
+            <span class="label-char" style="--index: 1">O</span>
+            <span class="label-char" style="--index: 2">M</span>
+            
+          </label>
+        </div>
+        <!--  -->
+        <div class="wave-group">
+          <input required="" name="prenom" type="text" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">P</span>
+            <span class="label-char" style="--index: 1">R</span>
+            <span class="label-char" style="--index: 2">E</span>
+            <span class="label-char" style="--index: 0">N</span>
+            <span class="label-char" style="--index: 1">O</span>
+            <span class="label-char" style="--index: 2">M</span>
+            
+          </label>
+        </div>
+        <!--  -->
+        <div class="wave-group">
+          <input required="" name="phone" type="tel" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">T</span>
+            <span class="label-char" style="--index: 1">E</span>
+            <span class="label-char" style="--index: 2">L</span>
+            <span class="label-char" style="--index: 0">E</span>
+            <span class="label-char" style="--index: 1">P</span>
+            <span class="label-char" style="--index: 2">H</span>
+            <span class="label-char" style="--index: 0">O</span>
+            <span class="label-char" style="--index: 1">N</span>
+            <span class="label-char" style="--index: 2">E</span>
+            
+          </label>
+        </div>
+        <!--  -->
+        <div class="wave-group">
+          <input required="" name="email" type="text" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">E</span>
+            <span class="label-char" style="--index: 1">M</span>
+            <span class="label-char" style="--index: 2">A</span>
+            <span class="label-char" style="--index: 1">I</span>
+            <span class="label-char" style="--index: 2">L</span>
+            
+          </label>
+        </div>
+        <!--  -->
+        <div>
+        <SPAN class="rad">Chambre individuelle 752 MAD</SPAN>
+        <input required="" class="radio" name="prix" value="Individuelle 752 MAD" type="radio" >
+        <SPAN class="rad">Chambre double 920 MAD</SPAN>
+        <input required="" class="radio" name="prix" value="Double 920 MAD" type="radio" >
+          </div>
+          <!--  -->
+          <div style="width: 100%;">
+            <input required="" name="date" type="date"  name="start-date">
+
+          </div>
+          <!--  -->
+          <div style="display: flex; gap: 20px;">
+            <button style="margin-left: 0px;" id="annuler3" class="reserver" type="button">Annuler</button>
+            <button style="margin-left: 0px;" id="confirmer1" class="reserver" type="submit">Confirmer</button>
+          </div>
+      </form>
+       <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+      
+      <!----------------------------------------- carte 4 ----------------------->
+      <div class="m21" id="m210">
+        <div id="m2114"></div>
+        <div id="m212">
+              <h3 class="nom">Ocean Atlantic View (Ex Bo Hotel)</h3>
+              <p class="adress">Founty, Agadir 1,4 km du centrePlage à proximité.</p>
+              <p class="adress1">La résidence Ocean Atlantic View (Ex Bo Hotel) possède une piscine extérieure, un sauna, un hammam et un institut de beauté. </p>
+              <br>
+              <span class="prix">Prix à partir de : 540 MAD</span>
+              <button id="reserver4" class="reserver" >Réserver</button>
+            </div>
+      </div>
+      <!------------------------------- formulaire 4 -------------------->
+      <form id="formulaire4" class="formulaire" action="../code de reservation/code_reservation.php" method="get">
+        <!--  -->
+        <div>
+          <input type="text" name="ville" value="Agadir" style="display: none;" >
+        </div>
+        <div>
+          <input type="text" name="hotel" value="Ocean Atlantic View (Ex Bo Hotel)" style="display: none;" >
+        </div>
+        <div class="wave-group">
+          <input required="" name="cin" type="text" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">C</span>
+            <span class="label-char" style="--index: 1">I</span>
+            <span class="label-char" style="--index: 2">N</span>
+            <span class="label-char" style="--index: 3">/</span>
+            <span class="label-char" style="--index: 4">PASSE</span>
+            <span class="label-char" style="--index: 5">PORT</span>
+
+            
+          </label>
+        </div>
+        <!--  -->
+        <div class="wave-group">
+          <input required="" name="nom" type="text" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">N</span>
+            <span class="label-char" style="--index: 1">O</span>
+            <span class="label-char" style="--index: 2">M</span>
+            
+          </label>
+        </div>
+        <!--  -->
+        <div class="wave-group">
+          <input required="" name="prenom" type="text" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">P</span>
+            <span class="label-char" style="--index: 1">R</span>
+            <span class="label-char" style="--index: 2">E</span>
+            <span class="label-char" style="--index: 0">N</span>
+            <span class="label-char" style="--index: 1">O</span>
+            <span class="label-char" style="--index: 2">M</span>
+            
+          </label>
+        </div>
+        <!--  -->
+        <div class="wave-group">
+          <input required="" name="phone" type="tel" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">T</span>
+            <span class="label-char" style="--index: 1">E</span>
+            <span class="label-char" style="--index: 2">L</span>
+            <span class="label-char" style="--index: 0">E</span>
+            <span class="label-char" style="--index: 1">P</span>
+            <span class="label-char" style="--index: 2">H</span>
+            <span class="label-char" style="--index: 0">O</span>
+            <span class="label-char" style="--index: 1">N</span>
+            <span class="label-char" style="--index: 2">E</span>
+            
+          </label>
+        </div>
+        <!--  -->
+        <div class="wave-group">
+          <input required="" name="email" type="text" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">E</span>
+            <span class="label-char" style="--index: 1">M</span>
+            <span class="label-char" style="--index: 2">A</span>
+            <span class="label-char" style="--index: 1">I</span>
+            <span class="label-char" style="--index: 2">L</span>
+            
+          </label>
+        </div>
+        <!--  -->
+        <div>
+        <SPAN class="rad">Chambre individuelle 540 MAD</SPAN>
+        <input required="" class="radio" type="radio" name="prix" value="Individuelle 540 MAD">
+        <SPAN class="rad">Chambre double 1050 MAD</SPAN>
+        <input required="" class="radio" type="radio" name="prix" value="Double 1050 MAD">
+          </div>
+          <!--  -->
+          <div style="width: 100%;">
+            <input required="" type="date"  name="date">
+
+          </div>
+          <!--  -->
+          <div style="display: flex; gap: 20px;">
+            <button style="margin-left: 0px;" id="annuler4" class="reserver">Annuler</button>
+            <button style="margin-left: 0px;" id="confirmer1" class="reserver" type="submit">Confirmer</button>
+          </div>
+      </form>
+      <!------------------------------------- carte 5 -------------------------------->
+      <div class="m21">
+        <div id="m2115"></div>
+        <div id="m212">
+              <h3 class="nom">CRISTAL House</h3>
+              <p class="adress">Agadir 3,4 km du centre.</p>
+              <p class="adress1">Situé à Agadir, le CRISTAL House récemment rénové propose un hébergement à 2,7 km de la médina Polizzi et à 4,2 km de la médina d'Agadir. </p>
+              <span class="prix">Prix à partir de : 546 MAD</span>
+              <button id="reserver5" class="reserver" >Réserver</button>
+            </div>
+      </div>
+       <!-- ----------------formulaire 5-------------------- -->
+       <form id="formulaire5" class="formulaire" action="../code de reservation/code_reservation.php" method="get">
+        <!--  -->
+        <div>
+          <input type="text" name="ville" value="Agadir" style="display: none;" >
+        </div>
+        <div>
+          <input type="text" name="hotel" value="CRISTAL House" style="display: none;" >
+        </div>
+        <div class="wave-group">
+          <input required="" name="cin" type="text" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">C</span>
+            <span class="label-char" style="--index: 1">I</span>
+            <span class="label-char" style="--index: 2">N</span>
+            <span class="label-char" style="--index: 3">/</span>
+            <span class="label-char" style="--index: 4">PASSE</span>
+            <span class="label-char" style="--index: 5">PORT</span>
+
+            
+          </label>
+        </div>
+        <!--  -->
+        <div class="wave-group">
+          <input required="" name="nom" type="text" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">N</span>
+            <span class="label-char" style="--index: 1">O</span>
+            <span class="label-char" style="--index: 2">M</span>
+            
+          </label>
+        </div>
+        <!--  -->
+        <div class="wave-group">
+          <input required="" name="prenom" type="text" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">P</span>
+            <span class="label-char" style="--index: 1">R</span>
+            <span class="label-char" style="--index: 2">E</span>
+            <span class="label-char" style="--index: 0">N</span>
+            <span class="label-char" style="--index: 1">O</span>
+            <span class="label-char" style="--index: 2">M</span>
+            
+          </label>
+        </div>
+        <!--  -->
+        <div class="wave-group">
+          <input required="" name="phone" type="tel" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">T</span>
+            <span class="label-char" style="--index: 1">E</span>
+            <span class="label-char" style="--index: 2">L</span>
+            <span class="label-char" style="--index: 0">E</span>
+            <span class="label-char" style="--index: 1">P</span>
+            <span class="label-char" style="--index: 2">H</span>
+            <span class="label-char" style="--index: 0">O</span>
+            <span class="label-char" style="--index: 1">N</span>
+            <span class="label-char" style="--index: 2">E</span>
+            
+          </label>
+        </div>
+        <!--  -->
+        <div class="wave-group">
+          <input required="" name="email" type="text" class="input">
+          <span class="bar"></span>
+          <label class="label">
+            <span class="label-char" style="--index: 0">E</span>
+            <span class="label-char" style="--index: 1">M</span>
+            <span class="label-char" style="--index: 2">A</span>
+            <span class="label-char" style="--index: 1">I</span>
+            <span class="label-char" style="--index: 2">L</span>
+            
+          </label>
+        </div>
+        <!--  -->
+        <div>
+        <SPAN class="rad">Chambre individuelle 546 MAD</SPAN>
+        <input required="" class="radio" type="radio" name="prix" value="Individuelle 546 MAD">
+        <SPAN class="rad">Chambre double 820 MAD</SPAN>
+        <input required="" class="radio" type="radio" name="prix" value="Double 820 MAD">
+          </div>
+          <!--  -->
+          <div style="width: 100%;">
+            <input required="" type="date" name="date"  name="start-date">
+
+          </div>
+          <!--  -->
+          <div style="display: flex; gap: 20px;">
+            <button style="margin-left: 0px;" id="annuler5" class="reserver" type="button">Annuler</button>
+            <button style="margin-left: 0px;" id="confirmer1" class="reserver" type="submit">Confirmer</button>
+          </div>
+      </form>
+    </div>
+  </div>
+
+
+
+<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+    <div id="m03">
+        <video  width="100%" height="400"  autoplay loop muted>
+            <source src="../Morocco.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+    </div>
+ 
+<!---------------------------- le peier de la page ----------------------->
+ <div id="rjal1">
+<div id="rjal11" class="rjal">
+<div id="rd" class="rjal">
+    <div id="red">
+        <div id="reda" class="addireda"></div>
+        <h3>SAADALLAH Reda</h3>
+    </div>
+    <div id="devlop">
+        <h3>Dévlopé<br> par : </h3>
+    </div>
+    <div id="red">
+        <div id="addi" class="addireda"></div>
+        <h3>BASSADOUK Addi</h3>
+    </div>
+</div>
+<div id="commant">
+    <img id="com" src="../web-design.png" alt="">
+</div>
+<div id="commant1">
+     <h4>Veuillez évaluer notre site:</h5>
+     <!-- les cinq etoile -->
+     <div id="star" class="radio-wrapper-18">
+        <input id="rating-18-5" type="radio" name="radio-examples">
+        <label for="rating-18-5" title="text">
+          <svg viewBox="0 0 576 512" height="1em" xmlns="http://www.w3.org/2000/svg">
+            <path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path>
+          </svg>
+        </label>
+        <input id="rating-18-4" type="radio" name="radio-examples">
+        <label for="rating-18-4" title="text">
+          <svg viewBox="0 0 576 512" height="1em" xmlns="http://www.w3.org/2000/svg">
+            <path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path>
+          </svg>
+        </label>
+        <input id="rating-18-3" type="radio" name="radio-examples">
+        <label for="rating-18-3" title="text">
+          <svg viewBox="0 0 576 512" height="1em" xmlns="http://www.w3.org/2000/svg">
+            <path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path>
+          </svg>
+        </label>
+        <input id="rating-18-2" type="radio" name="radio-examples">
+        <label for="rating-18-2" title="text">
+          <svg viewBox="0 0 576 512" height="1em" xmlns="http://www.w3.org/2000/svg">
+            <path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path>
+          </svg>
+        </label>
+        <input id="rating-18-1" type="radio" name="radio-examples">
+        <label for="rating-18-1" title="text">
+          <svg viewBox="0 0 576 512" height="1em" xmlns="http://www.w3.org/2000/svg">
+            <path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path>
+          </svg>
+        </label>
+      </div>
+      <!-- fin des cinq etoile -->
+       <br>
+       <br>
+       
+       <h3 style="font-family: arial;">VEUILLEZ FAIRE UN COMMANTAIRE</h3>
+      
+        <textarea id="Texterea"></textarea>
+       <button id="envoyer" class="button-42" onclick="commantaire()">Envoyer</button>
+</div>
+
+<div>
+  <p style="text-align: center;">Tous droits réservés 2024.</p>
+</div>
+
+ </div>
+ <div id="menu">
+  <ul id="ulmenu">
+    <li class="limenu"><a class="listeVille" href="../casablanca/casablanca.html">Casablanca</a></li>
+    <li class="limenu"><a class="listeVille" href="../Fes/Fes.html">Fés</a></li>
+    <li class="limenu"><a class="listeVille" href="../Marackech/Marackech.html">Marackech</a></li>
+    <li class="limenu"><a class="listeVille" href="../Agadir/agadir.html">Agadir</a></li>
+  </ul>
+</div>
+  </body>
+ <script src="agadir.js" ></script>
+</html>
